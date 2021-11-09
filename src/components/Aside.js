@@ -14,7 +14,7 @@ const Aside = () => {
   return (
     <div className='aside'>
       <h3 style={{ color }}>Aside</h3>
-      <button onClick={changeColor}>Change Color</button>
+      <button onClick={changeColor}>Click to change color</button>
     </div>
   )
 }
