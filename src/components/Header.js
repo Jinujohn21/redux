@@ -5,7 +5,9 @@ const Header = () => {
   const count = useSelector((state) => state.count.value)
   return (
     <div className='header'>
+
       <h1 style={{ color }}> Redux Project on Github Success</h1>
+
       <h3>Count is - {count}</h3>
     </div>
   )
